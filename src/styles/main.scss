@@ -1,0 +1,17 @@
+@import './variables';
+@import './mixins';
+@import './components/navbar';
+@import './components/addemployee';
+@import './components/employeeList';
+
+body {
+  font-family: $font-stack;
+  background-color: #f5f5f5;
+}
+
+header {
+  @include flex-center;
+  background: $primary-color;
+  padding: 1rem;
+  color: white;
+}
