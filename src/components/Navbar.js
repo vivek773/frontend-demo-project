@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import '../styles/component/'; // Adjust the import based on your structure
 
 const Navbar = () => {
   return (
